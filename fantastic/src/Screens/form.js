@@ -1,9 +1,9 @@
-const form = () => {
+const Form = () => {
     return (
         <h1>
-            from 
+            form 
         </h1>
     );
 }
 
-export default form;
+export default Form;
