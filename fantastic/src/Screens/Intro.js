@@ -8,7 +8,11 @@ import sign_in from '../user-application-identity-authentication-login-svgrepo-c
 import photo from '../undraw_visionary_technology_re_jfp7.svg';
 import play_store_icon from '../Google_Play-Badge-Logo.wine.svg';
 import './Intro.css';
+
 import { Link } from 'react-router-dom';
+
+import {Link} from 'react-router-dom';
+ 
 
 
 const Intro = () => {
@@ -40,11 +44,21 @@ return (
     <Navbar.Collapse id="basic-navbar-nav" >
       <Nav className="me-auto justify-content-end flex-grow-1 pe-3 nav-comp">
         <Nav.Link href="#" >
+
       
           <Button variant="light" style={{ backgroundColor:"#ccccff", borderRadius:"15px"}}><img width="24"
             className="align-top d-inline-block nav-comp"
             height="24" src={login_icon}  alt="logo"></img>
           Login</Button>
+
+          <Link to ="/login">
+            <Button variant="light" style={{ backgroundColor:"#ccccff", borderRadius:"15px"}}><img width="24"
+            className="align-top d-inline-block nav-comp"
+            height="24" src={login_icon}  alt="logo"></img>
+          Login</Button>
+          </Link>
+          
+
           
           </Nav.Link>
         <Nav.Link href="#">

@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { Container,Navbar,Nav ,Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -144,6 +145,16 @@ function Form() {
       </Container>
       </Navbar> */
   );
+}
+
+
+
+const Form = () => {
+    return (
+        <h1>
+            form 
+        </h1>
+    );
 }
 
 
