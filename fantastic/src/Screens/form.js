@@ -37,14 +37,24 @@ function Form() {
             </Nav.Link>
         </Container>
         </Navbar> 
-       
+        
     <div className='container cont co1' >
     
-        <div className="row" >
-        
-            <div className="col-sm" ><p style={{ fontWeight:"bold", fontSize:"50px" }}>Let The Process Start By Creating..
-            <img width="40px"  src={heading} style={{ marginRight: "8px" }} ></img></p>
-           
+        <div className="row " >
+          
+            <div className="col-sm" > {/*  <p style={{ fontWeight:"bold", fontSize:"50px" }}>
+               Let The Process Start By Creating..
+            <img width="40px"  src={heading} style={{ marginRight: "8px" }} ></img></p>   */}
+            <div className='container1'>
+           <svg viewBox='0 0 1100 500'> 
+             <text id='mytext' x="50%" y="50%" textAnchor='middle' fill='none'>Let The Process Start By Creating.. </text>
+             <use xlinkHref='#mytext' className='copy copy1'></use>
+             <use xlinkHref='#mytext' className='copy copy2'></use>
+             <use xlinkHref='#mytext' className='copy copy3'></use>
+             <use xlinkHref='#mytext' className='copy copy4'></use>
+             <use xlinkHref='#mytext' className='copy copy5'></use>
+           </svg> 
+           </div>
 
 
               <div className='container co'>
@@ -77,11 +87,11 @@ function Form() {
         </div>
         <br></br>
         <div className="row-sm" >
-        <input name="emailid" placeholder='Type of the Template'className='input_field'></input>
+        <input typeof='password' name="Type" placeholder='Type of the Template'className='input_field'></input>
         </div>
         <br></br>
         <div className="row-sm">
-        <input name="emailid" placeholder='Purpose of the Template'className='input_field'></input>
+        <input typeof='text' name="purpose" placeholder='Purpose of the Template'className='input_field'></input>
         </div>
        
         </div>
