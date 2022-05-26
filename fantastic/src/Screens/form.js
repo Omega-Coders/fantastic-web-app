@@ -7,6 +7,7 @@ import heading from "../heading_img.png";
 import formsimg from "../form_img1png.png";
 import logo from '../tiktok-app.svg';
 import msg_icon from '../icons8-mail-24.png';
+import { TextField } from '@material-ui/core';
 function Form() {
   return (
 <div>
@@ -69,30 +70,91 @@ function Form() {
               <div className="col-sm" >
                 <div className='row-sm'>
                 
-         <input name="emailid" placeholder='Enter Name of the Publisher' className='input_field'></input>
+         {/* <input name="emailid" placeholder='Enter Name of the Publisher' className='input_field'></input> */}
+         <TextField
+                autoComplete="fname"
+                name="firstName"
+                //variant="outlined"
+                required
+                fullWidth
+                id="firstName"
+                label="Enter Name of the Publisher"
+                autoFocus
+              />
         </div>
         <br></br>
         <div className="row-sm">
-        <input name="emailid" placeholder='Enter publisher email Address'className='input_field'></input>
+        {/* <input name="emailid" placeholder='Enter publisher email Address'className='input_field'></input> */}
+        <TextField
+                autoComplete="fname"
+                name="firstName"
+                // variant="outlined"
+                required
+                fullWidth
+                id="firstName"
+                label="Enter publisher email Address"
+                autoFocus
+              />
         </div>
         <br></br>
         <div className="row-sm">
-        <input name="emailid" placeholder='Enter Name of the Template'className='input_field'></input>
+        {/* <input name="emailid" placeholder='Enter Name of the Template'className='input_field'></input> */}
+        <TextField
+                autoComplete="fname"
+                name="firstName"
+                // variant="outlined"
+                required
+                fullWidth
+                id="firstName"
+                label="Enter Name of the Template"
+                autoFocus
+              />
         </div>
         <br></br>
         </div>
         <br></br>
         <div className='col-sm'>
         <div className="row-sm ">
-        <input name="emailid" placeholder='Enter Code of the Template'className='input_field'></input>
+        {/* <input name="emailid" placeholder='Enter Code of the Template'className='input_field'></input> */}
+        <TextField
+                autoComplete="fname"
+                name="firstName"
+                // variant="outlined"
+                required
+                fullWidth
+                id="firstName"
+                label="Enter Code of the Templatest "
+                autoFocus
+              />
         </div>
+
         <br></br>
         <div className="row-sm" >
-        <input typeof='password' name="Type" placeholder='Type of the Template'className='input_field'></input>
+        {/* <input typeof='password' name="Type" placeholder='Type of the Template'className='input_field'></input> */}
+        <TextField
+                autoComplete="fname"
+                name="firstName"
+                // variant="outlined"
+                required
+                fullWidth
+                id="firstName"
+                label="Type of the Template "
+                autoFocus
+              />
         </div>
         <br></br>
         <div className="row-sm">
-        <input typeof='text' name="purpose" placeholder='Purpose of the Template'className='input_field'></input>
+        {/* <input typeof='text' name="purpose" placeholder='Purpose of the Template'className='input_field'></input> */}
+        <TextField
+                autoComplete="fname"
+                name="firstName"
+                // variant="outlined"
+                required
+                fullWidth
+                id="firstName"
+                label="Purpose of the Template "
+                autoFocus
+              />
         </div>
        
         </div>
@@ -104,6 +166,7 @@ function Form() {
            Submit
         </Button>
         </div>
+        
         </div>
     
            </div>
@@ -149,13 +212,6 @@ function Form() {
 
 
 
-const Form = () => {
-    return (
-        <h1>
-            form 
-        </h1>
-    );
-}
 
 
 export default Form;

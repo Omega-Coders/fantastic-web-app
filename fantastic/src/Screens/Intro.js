@@ -11,7 +11,7 @@ import './Intro.css';
 
 import { Link } from 'react-router-dom';
 
-import {Link} from 'react-router-dom';
+
  
 
 
@@ -46,10 +46,7 @@ return (
         <Nav.Link href="#" >
 
       
-          <Button variant="light" style={{ backgroundColor:"#ccccff", borderRadius:"15px"}}><img width="24"
-            className="align-top d-inline-block nav-comp"
-            height="24" src={login_icon}  alt="logo"></img>
-          Login</Button>
+          
 
           <Link to ="/login">
             <Button variant="light" style={{ backgroundColor:"#ccccff", borderRadius:"15px"}}><img width="24"
